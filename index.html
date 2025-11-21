@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ClubHub - Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/main.css">
+ <title>ClubHub - Home</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
 
 <header>
-  <h1>ClubHub</h1>
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="clubs.html">Clubs</a>
-    <a href="events.html">Events</a>
-    <a href="contact.html">Contact</a>
-  </div>
+ <h1>ClubHub</h1>
+ <div class="navArea">
+   <a href="index.html">Home</a>
+   <a href="clubs.html">Clubs</a>
+   <a href="events.html">Events</a>
+   <a href="contact.html">Contact</a>
+ </div>
 </header>
 
-<div class="hero">
+<div class="hero" style="
+  background-image:url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200');
+">
   <div>
-    <h2>Explore all campus clubs & events in one simple place</h2>
-    <p>Stay updated with the latest activities happening around you.</p>
+    <h2>Explore Clubs, Events & Activities</h2>
+    <p style="max-width:700px;margin:auto;">
+      A simple place to discover all student clubs and events happening at NST.
+    </p>
+    <a href="clubs.html" class="btn-cta">Explore Clubs</a>
   </div>
 </div>
 
+<div style="
+  padding:50px 20px; 
+  background-image:url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200');
+  background-size:cover;
+  background-position:center;
+  border-radius:16px;
+  margin:25px auto;
+  max-width:1150px;
+  box-shadow:0 4px 14px rgba(0,0,0,0.18);">
+  
+  <div style="
+    background:rgba(0,0,0,0.55);
+    padding:40px 25px;
+    border-radius:12px;
+    color:white;
+    text-align:center;
+  ">
+    <h2 style="margin-bottom:10px;">Why ClubHub?</h2>
+    <p style="max-width:700px;margin:auto;line-height:1.6;">
+      ClubHub helps students stay updated with all active clubs,
+      ongoing activities and upcoming events at NST. Everything is organized in a simple way so you can easily explore what interests you.
+    </p>
+  </div>
+</div>
+
+
 <div class="section">
-  <h2>Why ClubHub?</h2>
-  <p style="max-width:700px;">
-    This website helps students find active clubs, upcoming events and basic info 
-    without searching everywhere. It's made simple so anyone can use it easily.
-  </p>
+ <h2>What You Can Find</h2>
+
+ <div class="cards">
+
+   <div class="card">
+     <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800">
+     <h3>Active Clubs</h3>
+     <p>A list of all student clubs available at NST.</p>
+   </div>
+
+   <div class="card">
+     <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800">
+     <h3>Campus Events</h3>
+     <p>Weekly activities and college happenings.</p>
+   </div>
+
+   <div class="card">
+     <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800">
+     <h3>Clean Interface</h3>
+     <p>Simple, lightweight and easy to browse.</p>
+   </div>
+
+ </div>
 </div>
 
 <footer>
-  © 2025 ClubHub - Newton School of Technology
+ © 2025 ClubHub | Made by Prince Kumar Singh
 </footer>
 
 </body>
